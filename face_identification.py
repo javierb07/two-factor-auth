@@ -67,7 +67,7 @@ def identifyFace(nameSent):
 
 serialComm = serial.Serial("COM7", 9600, timeout=0.01)  # Create an object to read the serial channel
 # load cascade classifier training file for haarcascade
-faceCascade = cv2.CascadeClassifier("./my_haarcascade.xml")
+faceCascade = cv2.CascadeClassifier("./haarcascade_frontalface_default.xml")
 time.sleep(3)   # Wait for serial communication with Arduino to be established
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("trainer.yml")  # Load the trained recognizer
