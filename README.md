@@ -4,9 +4,9 @@ I developed this system when I took IE5900 Electromechanical Robotic Systems at 
 
 It's a project to establish two-factor authentication using a password and a camera to gain access to a system.
 
-It was developed using an Arduino board, three push-buttons, a buzzer, and an LCD display. Additionally, a computer with access to a camera is also needed
+It was developed using an Arduino board, three push-buttons, a buzzer, and an LCD display. Additionally, a computer with access to a camera is also needed.
 
-The first form of authentication is done by typing a 3-digit numerical code through the buttons and the LCD display. The password and the user name can be set in the Arduino file.
+The first form of authentication is done by typing a 3-digit numerical code through the buttons and the LCD display. The password and the username can be set in the Arduino file.
 
 The second authentication is done by face detection through a Haar Cascade classifier. See example below:
 
