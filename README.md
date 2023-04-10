@@ -13,5 +13,3 @@ The second authentication is done by face detection through a Haar Cascade class
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html
 
 To train a new face put frontal pictures of the face of the user in the images folder and run the training script.
-
-Link to demonstration of the project: https://www.youtube.com/watch?v=NnVcloafM6U
